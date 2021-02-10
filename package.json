@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/joaovitorpoo/Studying-Cypress/issues"
   },
-  "homepage": "https://github.com/joaovitorpoo/Studying-Cypress#readme"
+  "homepage": "https://github.com/joaovitorpoo/Studying-Cypress#readme",
+  "dependencies": {
+    "cypress": "^3.6.0"
+  }
 }
