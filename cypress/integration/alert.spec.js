@@ -10,10 +10,12 @@ describe('Trabalhando com Alertas', () => {
     })
 
     it('Alerta', () => {
-        cy.get('#alert').click()
+        /* cy.get('#alert').click()
         cy.on('window:alert', msg => {
             expect(msg).to.be.equal('Alert Simples')
-        })
+        }) */
+
+        cy.clickAlert("#alert", "Alert Simples")
     })
 
     it('Alerta Simples', () => {
