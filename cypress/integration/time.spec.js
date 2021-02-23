@@ -25,8 +25,8 @@ describe('Trabalhando com o tempo', () => {
         //cy.get('#resultado > span').invoke('text').should('gt', 1613979702885)
 
         cy.clock()
-        cy.get('#buttonTimePassed').click()
-        cy.get('#resultado > span').invoke('text').should('lte', 0)
+        //cy.get('#buttonTimePassed').click()
+        //cy.get('#resultado > span').invoke('text').should('lte', 0)
         // cy.wait(1000)
         // cy.get('#buttonTimePassed').click()
         // cy.get('#resultado > span').invoke('text').should('lte', 1000)
